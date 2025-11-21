@@ -46,7 +46,7 @@
           {
             "position": {
               "x": 340,
-              "y": 30
+              "y": 20
             },
             "size": {
               "width": 260,
@@ -67,19 +67,12 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
             "position": {
-              "x": 320,
-              "y": 580
+              "x": 340,
+              "y": 587
             },
             "size": {
               "width": 230,
@@ -490,8 +483,8 @@
           },
           {
             "position": {
-              "x": 372,
-              "y": 70
+              "x": 385,
+              "y": 60
             },
             "size": {
               "width": 170,
@@ -610,8 +603,8 @@
           },
           {
             "position": {
-              "x": 720,
-              "y": 300
+              "x": 710,
+              "y": 315
             },
             "size": {
               "width": 170,
@@ -726,6 +719,13 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -840,7 +840,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "(5)Send Final Votes",
+              "name": "(5)Send Encrypted Votes",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -853,7 +853,7 @@
               "threats": []
             },
             "labels": [
-              "(5)Send Final Votes"
+              "(5)Send Encrypted Votes"
             ],
             "id": "a4d1f8a9-b730-4e23-ac2d-19ea5a51a3c1",
             "source": {
@@ -886,7 +886,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "(3) Submit Encrypted Vote With Signature",
+              "name": "(3) Submit Encrypted Vote(s) With Signature",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -899,7 +899,7 @@
               "threats": []
             },
             "labels": [
-              "(3) Submit Encrypted Vote With Signature"
+              "(3) Submit Encrypted Vote(s) With Signature"
             ],
             "id": "d5e3dadc-4cd6-430c-aef9-ef86b51405ce",
             "source": {
