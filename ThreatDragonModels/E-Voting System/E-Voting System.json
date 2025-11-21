@@ -45,8 +45,8 @@
           },
           {
             "position": {
-              "x": 360,
-              "y": 19.999999999999943
+              "x": 340,
+              "y": 30
             },
             "size": {
               "width": 260,
@@ -59,6 +59,7 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
+            "zIndex": -1,
             "id": "de720de8-394e-4561-8dfd-83cbbd55d5e1",
             "data": {
               "type": "tm.BoundaryBox",
@@ -67,12 +68,70 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false
             },
-            "zIndex": -1
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
-              "x": 20,
-              "y": 360
+              "x": 320,
+              "y": 580
+            },
+            "size": {
+              "width": 230,
+              "height": 190
+            },
+            "attrs": {
+              "label": {
+                "text": "External Voters"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "e9d6e0e5-5162-4d75-9417-567ae13eb099",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "External Voters",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": -45,
+              "y": 315
+            },
+            "size": {
+              "width": 240,
+              "height": 210
+            },
+            "attrs": {
+              "label": {
+                "text": "Admin"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "bf08a3b6-374d-4d6d-87df-145a1090c77c",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Admin",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": -10,
+              "y": 350
             },
             "size": {
               "width": 170,
@@ -551,7 +610,7 @@
           },
           {
             "position": {
-              "x": 690,
+              "x": 720,
               "y": 300
             },
             "size": {
@@ -827,7 +886,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "(3) Submit Vote",
+              "name": "(3) Submit Encrypted Vote With Signature",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -840,7 +899,7 @@
               "threats": []
             },
             "labels": [
-              "(3) Submit Vote"
+              "(3) Submit Encrypted Vote With Signature"
             ],
             "id": "d5e3dadc-4cd6-430c-aef9-ef86b51405ce",
             "source": {
