@@ -45,8 +45,8 @@
           },
           {
             "position": {
-              "x": 340,
-              "y": 20
+              "x": 325,
+              "y": 0
             },
             "size": {
               "width": 260,
@@ -85,8 +85,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "e9d6e0e5-5162-4d75-9417-567ae13eb099",
             "zIndex": -1,
+            "id": "e9d6e0e5-5162-4d75-9417-567ae13eb099",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "External Voters",
@@ -111,8 +111,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "bf08a3b6-374d-4d6d-87df-145a1090c77c",
             "zIndex": -1,
+            "id": "bf08a3b6-374d-4d6d-87df-145a1090c77c",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Admin",
@@ -123,7 +123,7 @@
           },
           {
             "position": {
-              "x": -10,
+              "x": -45,
               "y": 350
             },
             "size": {
@@ -483,8 +483,8 @@
           },
           {
             "position": {
-              "x": 385,
-              "y": 60
+              "x": 367,
+              "y": 50
             },
             "size": {
               "width": 180,
@@ -603,8 +603,8 @@
           },
           {
             "position": {
-              "x": 710,
-              "y": 315
+              "x": 720,
+              "y": 320
             },
             "size": {
               "width": 170,
@@ -765,53 +765,12 @@
               "cell": "65082f38-c787-4b30-b6bd-3bdecf393569",
               "port": "5ebdae1a-5ec2-4559-82d5-49487730a598"
             },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
+            "vertices": [
+              {
+                "x": 670,
+                "y": 420
               }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "(2) Open Election",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "(2) Open Election"
-            ],
-            "id": "bb65bfdf-1e6c-414f-8304-93212a6763d1",
-            "source": {
-              "cell": "769bb6b7-52a8-4e6c-97dd-bfe03a266490",
-              "port": "5ebdae1a-5ec2-4559-82d5-49487730a598"
-            },
-            "target": {
-              "cell": "65082f38-c787-4b30-b6bd-3bdecf393569",
-              "port": "e815e256-c701-4a63-b40b-b2a01954b9a3"
-            },
-            "vertices": []
+            ]
           },
           {
             "shape": "flow",
@@ -930,7 +889,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "(4) Close Election",
+              "name": "(5) Request Votes With Signature",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -943,7 +902,58 @@
               "threats": []
             },
             "labels": [
-              "(4) Close Election"
+              "(5) Request Votes With Signature"
+            ],
+            "id": "20b9de83-e044-4e77-b7c8-63b823a64091",
+            "source": {
+              "cell": "d93c8a50-a5f3-4b94-8333-9ca7b30d34f2",
+              "port": "5ebdae1a-5ec2-4559-82d5-49487730a598"
+            },
+            "target": {
+              "cell": "65082f38-c787-4b30-b6bd-3bdecf393569",
+              "port": "5ebdae1a-5ec2-4559-82d5-49487730a598"
+            },
+            "vertices": [
+              {
+                "x": 650,
+                "y": 160
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "(4) Close Election + Signature",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "(4) Close Election + Signature"
             ],
             "id": "2f874373-8c49-4780-88d5-3d462633e479",
             "source": {
@@ -981,7 +991,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "(5) Request Votes With Signature",
+              "name": "(2) Open Election + Signature",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -994,29 +1004,24 @@
               "threats": []
             },
             "labels": [
-              "(5) Request Votes With Signature"
+              "(2) Open Election + Signature"
             ],
-            "id": "20b9de83-e044-4e77-b7c8-63b823a64091",
+            "id": "bb65bfdf-1e6c-414f-8304-93212a6763d1",
             "source": {
-              "cell": "d93c8a50-a5f3-4b94-8333-9ca7b30d34f2",
+              "cell": "769bb6b7-52a8-4e6c-97dd-bfe03a266490",
               "port": "5ebdae1a-5ec2-4559-82d5-49487730a598"
             },
             "target": {
               "cell": "65082f38-c787-4b30-b6bd-3bdecf393569",
-              "port": "5ebdae1a-5ec2-4559-82d5-49487730a598"
+              "port": "e815e256-c701-4a63-b40b-b2a01954b9a3"
             },
-            "vertices": [
-              {
-                "x": 700,
-                "y": 220
-              }
-            ]
+            "vertices": []
           }
         ]
       }
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
