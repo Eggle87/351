@@ -2990,12 +2990,12 @@
         "cells": [
           {
             "position": {
-              "x": -75.00000000000227,
-              "y": 314.9999999999984
+              "x": -75.00000000000091,
+              "y": 304.9999999999993
             },
             "size": {
-              "width": 530,
-              "height": 590
+              "width": 690,
+              "height": 800
             },
             "visible": true,
             "shape": "trust-boundary-box",
@@ -3008,12 +3008,13 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "2c5fa951-cc61-4401-a3ae-3ea8d94f184b",
-                "31717408-6c36-449c-9e12-8ff41193d858",
-                "777b74ed-6f60-4c34-8670-3dae317a71b2",
-                "75c08e1a-9120-4914-9c6f-5181a2d79137",
-                "c1f75cc8-59ea-42e2-ae2d-d02eee92e1a5",
-                "8cc92a45-2d54-4db8-abf2-2e4ad3bd2b70"
+                "dbd0cd99-6daf-43eb-a68e-2233f5d5ad53",
+                "0d15e283-69ea-406f-be71-f465cf802a60",
+                "56b1b9b3-36a9-40ef-89d5-40cfb84285eb",
+                "ec997923-3399-4db5-a06a-1bbc1ad865ec",
+                "b28d86d4-ae9a-4779-874d-6cba63ecf871",
+                "2b4c0010-317a-4958-ab95-cae24e96e30c",
+                "62503618-3277-4983-85ae-0406c54f2131"
               ],
               "containedElements": [
                 "0ac82458-b97b-485f-bcf6-2eb0dfc359a2",
@@ -3023,125 +3024,8 @@
           },
           {
             "position": {
-              "x": -420,
-              "y": 374.99999999999864
-            },
-            "size": {
-              "width": 220,
-              "height": 120
-            },
-            "attrs": {
-              "text": {
-                "text": "Author"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "zIndex": 2,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "4979c9a8-02f5-4002-ba5a-078bd51795ab"
-                },
-                {
-                  "group": "right",
-                  "id": "c42a09e7-b5fd-4eda-a6b7-c6117d33f42b"
-                },
-                {
-                  "group": "bottom",
-                  "id": "dea455fe-1c8c-4d85-b5ca-f7351c1cea17"
-                },
-                {
-                  "group": "left",
-                  "id": "a122af34-eec7-48cf-8650-b72a4c4552a2"
-                }
-              ]
-            },
-            "id": "4ca0e0d0-17ee-48a6-adff-c53b3e6d0861",
-            "data": {
-              "type": "tm.Actor",
-              "name": "Author",
-              "description": "",
-              "isTrustBoundary": false,
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "providesAuthentication": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 94.99999999999898,
-              "y": 774.9999999999976
+              "x": 104.99999999999898,
+              "y": 934.9999999999976
             },
             "size": {
               "width": 190,
@@ -3402,7 +3286,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "(2) Upload Paper",
+              "name": "(1) Get Bids",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3418,166 +3302,171 @@
               ]
             },
             "labels": [
-              "(2) Upload Paper"
+              "(1) Get Bids"
             ],
-            "id": "2c5fa951-cc61-4401-a3ae-3ea8d94f184b",
+            "id": "dbd0cd99-6daf-43eb-a68e-2233f5d5ad53",
             "source": {
-              "cell": "4ca0e0d0-17ee-48a6-adff-c53b3e6d0861",
-              "port": "c42a09e7-b5fd-4eda-a6b7-c6117d33f42b"
+              "cell": "056d102d-281c-4ba3-a0e2-3da12315aa6f",
+              "port": "5dc589e9-8dfe-4c73-93bd-81568cc354a9"
+            },
+            "target": {
+              "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
+              "port": "18887b38-f771-4b05-a082-7d0d1a4a1194"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "(2) Retrieve Bidding\n Information",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "(2) Retrieve Bidding\n Information"
+            ],
+            "id": "045b6849-5831-4d95-93d0-c12ad77da509",
+            "source": {
+              "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
+              "port": "f29d497e-5612-4d2e-8264-29c406a4e64d"
+            },
+            "target": {
+              "cell": "0ac82458-b97b-485f-bcf6-2eb0dfc359a2",
+              "port": "a085d17e-e854-43d0-aea1-689d436439e3"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "(4) Send Bids",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "ea0c7fe6-bafe-4296-8535-11bcac7183ac"
+              ]
+            },
+            "labels": [
+              "(4) Send Bids"
+            ],
+            "id": "0d15e283-69ea-406f-be71-f465cf802a60",
+            "source": {
+              "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
+              "port": "f169bc88-c578-4927-a57f-cc1311674f6b"
+            },
+            "target": {
+              "cell": "056d102d-281c-4ba3-a0e2-3da12315aa6f",
+              "port": "5dc589e9-8dfe-4c73-93bd-81568cc354a9"
+            },
+            "vertices": [
+              {
+                "x": 295,
+                "y": 250
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "(5) Assign papers",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "ea0c7fe6-bafe-4296-8535-11bcac7183ac"
+              ]
+            },
+            "labels": [
+              "(5) Assign papers"
+            ],
+            "id": "56b1b9b3-36a9-40ef-89d5-40cfb84285eb",
+            "source": {
+              "cell": "056d102d-281c-4ba3-a0e2-3da12315aa6f",
+              "port": "5dc589e9-8dfe-4c73-93bd-81568cc354a9"
             },
             "target": {
               "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
               "port": "92ec911f-96c7-48f2-a15e-90cdc6617437"
             },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "(3) Store Paper Information",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "(3) Store Paper Information"
-            ],
-            "id": "d4871f7d-867f-4df8-83ad-c41c25d62d37",
-            "source": {
-              "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
-              "port": "f29d497e-5612-4d2e-8264-29c406a4e64d"
-            },
-            "target": {
-              "cell": "0ac82458-b97b-485f-bcf6-2eb0dfc359a2",
-              "port": "a085d17e-e854-43d0-aea1-689d436439e3"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "(1) Start Paper\n Uploading Stage",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "ea0c7fe6-bafe-4296-8535-11bcac7183ac"
-              ]
-            },
-            "labels": [
-              "(1) Start Paper\n Uploading Stage"
-            ],
-            "id": "31717408-6c36-449c-9e12-8ff41193d858",
-            "source": {
-              "cell": "056d102d-281c-4ba3-a0e2-3da12315aa6f",
-              "port": "5dc589e9-8dfe-4c73-93bd-81568cc354a9"
-            },
-            "target": {
-              "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
-              "port": "18887b38-f771-4b05-a082-7d0d1a4a1194"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "(4) Start Bidding\n Stage",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "ea0c7fe6-bafe-4296-8535-11bcac7183ac"
-              ]
-            },
-            "labels": [
-              "(4) Start Bidding\n Stage"
-            ],
-            "id": "777b74ed-6f60-4c34-8670-3dae317a71b2",
-            "source": {
-              "cell": "056d102d-281c-4ba3-a0e2-3da12315aa6f",
-              "port": "5dc589e9-8dfe-4c73-93bd-81568cc354a9"
-            },
-            "target": {
-              "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
-              "port": "18887b38-f771-4b05-a082-7d0d1a4a1194"
-            },
             "vertices": [
               {
-                "x": 310,
-                "y": 180
+                "x": 85,
+                "y": 240
               }
             ]
           },
@@ -3601,7 +3490,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "(5) Request Papers\n For Bidding",
+              "name": "(6) Store Paper\n Assignments",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3612,23 +3501,26 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "ea0c7fe6-bafe-4296-8535-11bcac7183ac"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
-              "(5) Request Papers\n For Bidding"
+              "(6) Store Paper\n Assignments"
             ],
-            "id": "75c08e1a-9120-4914-9c6f-5181a2d79137",
+            "id": "cb3bf157-59c1-46f3-b65c-625f6376ac5f",
             "source": {
-              "cell": "57da72c6-93ab-4daf-be8e-b92398d7f6b3",
-              "port": "a122af34-eec7-48cf-8650-b72a4c4552a2"
+              "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
+              "port": "f29d497e-5612-4d2e-8264-29c406a4e64d"
             },
             "target": {
-              "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
-              "port": "f169bc88-c578-4927-a57f-cc1311674f6b"
+              "cell": "0ac82458-b97b-485f-bcf6-2eb0dfc359a2",
+              "port": "919781a2-7fab-44a5-b034-4660dd386a69"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 50,
+                "y": 800
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -3650,7 +3542,115 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "(6) Get Paper\n Information",
+              "name": "(7) Start Review Stage",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "ea0c7fe6-bafe-4296-8535-11bcac7183ac"
+              ]
+            },
+            "labels": [
+              "(7) Start Review Stage"
+            ],
+            "id": "ec997923-3399-4db5-a06a-1bbc1ad865ec",
+            "source": {
+              "cell": "056d102d-281c-4ba3-a0e2-3da12315aa6f",
+              "port": "5dc589e9-8dfe-4c73-93bd-81568cc354a9"
+            },
+            "target": {
+              "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
+              "port": "18887b38-f771-4b05-a082-7d0d1a4a1194"
+            },
+            "vertices": [
+              {
+                "x": -30,
+                "y": 240
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "(8) Request Papers\n For Review",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "ea0c7fe6-bafe-4296-8535-11bcac7183ac"
+              ]
+            },
+            "labels": [
+              "(8) Request Papers\n For Review"
+            ],
+            "id": "b28d86d4-ae9a-4779-874d-6cba63ecf871",
+            "source": {
+              "cell": "57da72c6-93ab-4daf-be8e-b92398d7f6b3",
+              "port": "a122af34-eec7-48cf-8650-b72a4c4552a2"
+            },
+            "target": {
+              "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
+              "port": "f169bc88-c578-4927-a57f-cc1311674f6b"
+            },
+            "vertices": [
+              {
+                "x": 520,
+                "y": 380
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "(3) Send Bidding\n Information",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3664,21 +3664,21 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "(6) Get Paper\n Information"
+              "(3) Send Bidding\n Information"
             ],
-            "id": "495d317e-95b0-4922-9403-1e57257d8e89",
+            "id": "d268dbf0-7cad-42d2-a13d-83b5dc634991",
             "source": {
-              "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
-              "port": "f29d497e-5612-4d2e-8264-29c406a4e64d"
-            },
-            "target": {
               "cell": "0ac82458-b97b-485f-bcf6-2eb0dfc359a2",
               "port": "a085d17e-e854-43d0-aea1-689d436439e3"
+            },
+            "target": {
+              "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
+              "port": "f29d497e-5612-4d2e-8264-29c406a4e64d"
             },
             "vertices": [
               {
                 "x": 330,
-                "y": 710
+                "y": 820
               }
             ]
           },
@@ -3702,7 +3702,111 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "(7) Send Paper(s)\nTitle+Abstract",
+              "name": "(9) Get Assigned Papers",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "(9) Get Assigned Papers"
+            ],
+            "id": "d0e1eab9-1ec9-4a94-a0b3-b6bf9630a252",
+            "source": {
+              "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
+              "port": "f29d497e-5612-4d2e-8264-29c406a4e64d"
+            },
+            "target": {
+              "cell": "0ac82458-b97b-485f-bcf6-2eb0dfc359a2",
+              "port": "e6ec339d-0833-4b40-a739-5c8162d2e202"
+            },
+            "vertices": [
+              {
+                "x": 420,
+                "y": 760
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "(10) Send Assigned\nPapers",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "(10) Send Assigned\nPapers"
+            ],
+            "id": "b465fe6a-bee9-470b-8af1-16129090787e",
+            "source": {
+              "cell": "0ac82458-b97b-485f-bcf6-2eb0dfc359a2",
+              "port": "e6ec339d-0833-4b40-a739-5c8162d2e202"
+            },
+            "target": {
+              "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
+              "port": "f29d497e-5612-4d2e-8264-29c406a4e64d"
+            },
+            "vertices": [
+              {
+                "x": 510,
+                "y": 720
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "(11) Send Assigned Papers",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3718,9 +3822,9 @@
               ]
             },
             "labels": [
-              "(7) Send Paper(s)\nTitle+Abstract"
+              "(11) Send Assigned Papers"
             ],
-            "id": "c1f75cc8-59ea-42e2-ae2d-d02eee92e1a5",
+            "id": "2b4c0010-317a-4958-ab95-cae24e96e30c",
             "source": {
               "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
               "port": "f169bc88-c578-4927-a57f-cc1311674f6b"
@@ -3731,7 +3835,61 @@
             },
             "vertices": [
               {
-                "x": 530,
+                "x": 510,
+                "y": 460
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "(12) Submit Review",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "ea0c7fe6-bafe-4296-8535-11bcac7183ac"
+              ]
+            },
+            "labels": [
+              "(12) Submit Review"
+            ],
+            "id": "62503618-3277-4983-85ae-0406c54f2131",
+            "source": {
+              "cell": "57da72c6-93ab-4daf-be8e-b92398d7f6b3",
+              "port": "a122af34-eec7-48cf-8650-b72a4c4552a2"
+            },
+            "target": {
+              "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
+              "port": "f169bc88-c578-4927-a57f-cc1311674f6b"
+            },
+            "vertices": [
+              {
+                "x": 490,
                 "y": 520
               }
             ]
@@ -3756,61 +3914,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "(8) Submit Bid",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "ea0c7fe6-bafe-4296-8535-11bcac7183ac"
-              ]
-            },
-            "labels": [
-              "(8) Submit Bid"
-            ],
-            "id": "8cc92a45-2d54-4db8-abf2-2e4ad3bd2b70",
-            "source": {
-              "cell": "57da72c6-93ab-4daf-be8e-b92398d7f6b3",
-              "port": "a122af34-eec7-48cf-8650-b72a4c4552a2"
-            },
-            "target": {
-              "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
-              "port": "f169bc88-c578-4927-a57f-cc1311674f6b"
-            },
-            "vertices": [
-              {
-                "x": 540,
-                "y": 350
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "(9) Store Bid",
+              "name": "(13) Store Review",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3824,28 +3928,28 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "(9) Store Bid"
+              "(13) Store Review"
             ],
-            "id": "5f94e97a-4bb8-4fc9-945a-7b45b230e21e",
+            "id": "bf932f72-6343-4102-b10e-9674ac34f8aa",
             "source": {
               "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
-              "port": "f29d497e-5612-4d2e-8264-29c406a4e64d"
+              "port": "92ec911f-96c7-48f2-a15e-90cdc6617437"
             },
             "target": {
               "cell": "0ac82458-b97b-485f-bcf6-2eb0dfc359a2",
-              "port": "a085d17e-e854-43d0-aea1-689d436439e3"
+              "port": "919781a2-7fab-44a5-b034-4660dd386a69"
             },
             "vertices": [
               {
-                "x": 20,
-                "y": 730
+                "x": -10,
+                "y": 680
               }
             ]
           },
           {
             "position": {
-              "x": 74.99999999999773,
-              "y": -10
+              "x": 74.99999999999898,
+              "y": 20
             },
             "size": {
               "width": 230,
@@ -3961,7 +4065,7 @@
           },
           {
             "position": {
-              "x": 742,
+              "x": 712,
               "y": 374.99999999999864
             },
             "size": {
@@ -3980,6 +4084,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -4073,8 +4178,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 12
+            }
           }
         ]
       }
