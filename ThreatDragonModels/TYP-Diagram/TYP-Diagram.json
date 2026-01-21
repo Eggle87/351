@@ -3957,7 +3957,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Program Chai"
+                "text": "Program Chair"
               },
               "body": {
                 "stroke": "#333333",
@@ -4053,7 +4053,7 @@
             "id": "056d102d-281c-4ba3-a0e2-3da12315aa6f",
             "data": {
               "type": "tm.Actor",
-              "name": "Program Chai",
+              "name": "Program Chair",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -4061,6 +4061,13 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
