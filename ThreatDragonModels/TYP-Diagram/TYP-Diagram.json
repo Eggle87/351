@@ -1892,12 +1892,12 @@
         "cells": [
           {
             "position": {
-              "x": -75.00000000000227,
-              "y": 314.9999999999984
+              "x": -75.00000000000375,
+              "y": 314.99999999999955
             },
             "size": {
               "width": 530,
-              "height": 590
+              "height": 830
             },
             "visible": true,
             "shape": "trust-boundary-box",
@@ -1925,7 +1925,7 @@
           },
           {
             "position": {
-              "x": -420,
+              "x": -370,
               "y": 374.99999999999864
             },
             "size": {
@@ -2042,8 +2042,8 @@
           },
           {
             "position": {
-              "x": 94.99999999999898,
-              "y": 774.9999999999976
+              "x": 94.99999999999625,
+              "y": 974.9999999999977
             },
             "size": {
               "width": 190,
@@ -2479,64 +2479,9 @@
             "vertices": [
               {
                 "x": 310,
-                "y": 180
+                "y": 210
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "flow",
@@ -2801,8 +2746,8 @@
           },
           {
             "position": {
-              "x": 74.99999999999773,
-              "y": -10
+              "x": 74.99999999999625,
+              "y": 40
             },
             "size": {
               "width": 230,
@@ -2914,18 +2859,11 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
             "position": {
-              "x": 742,
+              "x": 682,
               "y": 374.99999999999864
             },
             "size": {
