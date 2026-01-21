@@ -854,8 +854,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "ea0c7fe6-bafe-4296-8535-11bcac7183ac",
             "zIndex": -1,
+            "id": "ea0c7fe6-bafe-4296-8535-11bcac7183ac",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -868,7 +868,8 @@
                 "43044902-fddc-488c-bbe0-4cd3cdebb9eb",
                 "8bb08a4c-ab89-421b-9857-d2fffaf1383a",
                 "d9f20e67-e1c2-472f-aae5-e697a869ee05",
-                "b93ddd6c-49cf-4edb-b8cb-1022fdf3b99a"
+                "b93ddd6c-49cf-4edb-b8cb-1022fdf3b99a",
+                "057da98d-dd35-4914-b3ac-58f7d67fdfc8"
               ],
               "containedElements": [
                 "0ac82458-b97b-485f-bcf6-2eb0dfc359a2",
@@ -878,8 +879,8 @@
           },
           {
             "position": {
-              "x": -630,
-              "y": 374.99999999999864
+              "x": -640,
+              "y": 390
             },
             "size": {
               "width": 220,
@@ -1288,8 +1289,8 @@
                 "y": 580
               },
               {
-                "x": 350,
-                "y": 790
+                "x": 290,
+                "y": 780
               }
             ]
           },
@@ -1470,7 +1471,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "(5) Request \nReviewer List",
+              "name": "(6) Request \nReviewer List",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1486,7 +1487,7 @@
               ]
             },
             "labels": [
-              "(5) Request \nReviewer List"
+              "(6) Request \nReviewer List"
             ],
             "id": "8bb08a4c-ab89-421b-9857-d2fffaf1383a",
             "source": {
@@ -1497,7 +1498,12 @@
               "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
               "port": "92ec911f-96c7-48f2-a15e-90cdc6617437"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": -200,
+                "y": 450
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1519,7 +1525,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "(7) Submit Conflict Form",
+              "name": "(10) Submit Conflict Form",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1535,7 +1541,7 @@
               ]
             },
             "labels": [
-              "(7) Submit Conflict Form"
+              "(10) Submit Conflict Form"
             ],
             "id": "d9f20e67-e1c2-472f-aae5-e697a869ee05",
             "source": {
@@ -1573,7 +1579,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "(6) Get Reviewer\nList",
+              "name": "(7) Get Reviewer\nList",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1587,7 +1593,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "(6) Get Reviewer\nList"
+              "(7) Get Reviewer\nList"
             ],
             "id": "295ad6f1-3035-46a0-9684-757b02b05947",
             "source": {
@@ -1600,7 +1606,7 @@
             },
             "vertices": [
               {
-                "x": 270,
+                "x": 230,
                 "y": 740
               }
             ]
@@ -1625,7 +1631,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "(7) Send Reviewer\nList",
+              "name": "(8) Send Reviewer\nList",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1639,7 +1645,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "(7) Send Reviewer\nList"
+              "(8) Send Reviewer\nList"
             ],
             "id": "c8c1def3-6c85-4a4d-949d-71a7f1d30a5d",
             "source": {
@@ -1653,7 +1659,7 @@
             "vertices": [
               {
                 "x": 110,
-                "y": 760
+                "y": 750
               }
             ]
           },
@@ -1677,7 +1683,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "(8) Send Reviewer List",
+              "name": "(9) Send Reviewer List",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1693,7 +1699,7 @@
               ]
             },
             "labels": [
-              "(8) Send Reviewer List"
+              "(9) Send Reviewer List"
             ],
             "id": "b93ddd6c-49cf-4edb-b8cb-1022fdf3b99a",
             "source": {
@@ -1731,7 +1737,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "(10) Save Conflict\nInformation",
+              "name": "(11) Save Conflict\nInformation",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1745,7 +1751,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "(10) Save Conflict\nInformation"
+              "(11) Save Conflict\nInformation"
             ],
             "id": "58b1b6aa-539a-45ca-a39f-768cc6508744",
             "source": {
@@ -1758,15 +1764,121 @@
             },
             "vertices": [
               {
-                "x": -30,
+                "x": -10,
+                "y": 730
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "(5) Register",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "ea0c7fe6-bafe-4296-8535-11bcac7183ac"
+              ]
+            },
+            "labels": [
+              "(5) Register"
+            ],
+            "id": "057da98d-dd35-4914-b3ac-58f7d67fdfc8",
+            "source": {
+              "cell": "4ca0e0d0-17ee-48a6-adff-c53b3e6d0861",
+              "port": "c42a09e7-b5fd-4eda-a6b7-c6117d33f42b"
+            },
+            "target": {
+              "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
+              "port": "92ec911f-96c7-48f2-a15e-90cdc6617437"
+            },
+            "vertices": [
+              {
+                "x": -190,
+                "y": 640
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "(6)Store Author\nCredentials",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "(6)Store Author\nCredentials"
+            ],
+            "id": "6f6f3532-61c2-45da-82d4-f225c0780a34",
+            "source": {
+              "cell": "5ea41df6-89b2-4080-9a56-d16cb8ff1090",
+              "port": "f169bc88-c578-4927-a57f-cc1311674f6b"
+            },
+            "target": {
+              "cell": "0ac82458-b97b-485f-bcf6-2eb0dfc359a2",
+              "port": "a085d17e-e854-43d0-aea1-689d436439e3"
+            },
+            "vertices": [
+              {
+                "x": 400,
                 "y": 740
               }
             ]
           },
           {
             "position": {
-              "x": 74.99999999999898,
-              "y": -80.0000000000004
+              "x": 64.99999999999898,
+              "y": -50.0000000000004
             },
             "size": {
               "width": 230,
@@ -1774,7 +1886,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Program Chai"
+                "text": "Program Chair"
               },
               "body": {
                 "stroke": "#333333",
@@ -1784,6 +1896,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1867,10 +1980,9 @@
               ]
             },
             "id": "056d102d-281c-4ba3-a0e2-3da12315aa6f",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
-              "name": "Program Chai",
+              "name": "Program Chair",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
